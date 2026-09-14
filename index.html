@@ -85,6 +85,17 @@ h1{font-family:"Syne",sans-serif;font-weight:800;font-size:clamp(30px,3.4vw,40px
 .meta a,.meta span{display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none}
 .meta a:hover{color:var(--cream)}
 .meta svg{width:16px;height:16px;flex:none;stroke:var(--saffron);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.who-gif{
+  width:100%;
+  max-width:240px;
+  height:auto;
+  display:block;
+  border-radius:16px;
+  align-self:center;
+  margin-top:4px;
+  pointer-events:none;
+  background:transparent;
+}
 
 /* right: content */
 .what{padding:40px 40px 36px;display:flex;flex-direction:column;gap:28px;transform:translateZ(16px)}
@@ -146,6 +157,7 @@ h2{font-family:"Syne",sans-serif;font-weight:700;font-size:13px;letter-spacing:.
   .links{grid-template-columns:1fr 1fr}
   .lk{font-size:13px;padding:12px}
   .bio{font-size:15.5px}
+  .who-gif{max-width:200px}
 }
 @media (prefers-reduced-motion:reduce){
   .card{animation:none;transition:none}
@@ -170,9 +182,10 @@ h2{font-family:"Syne",sans-serif;font-weight:700;font-size:13px;letter-spacing:.
     <div class="meta">
       <a href="tel:+916297172118"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+91 62971 72118</a>
       <a href="mailto:debashisalak@gmail.com"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>debashisalak@gmail.com</a>
-      <span><svg viewBox="0 0 24 24"><path d="M12 22s7-6.3 7-12a7 7 0 1 0-14 0c0 5.7 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Kolkata, West Bengal, India</span>
-    </div>
-  </section>
+       <span><svg viewBox="0 0 24 24"><path d="M12 22s7-6.3 7-12a7 7 0 1 0-14 0c0 5.7 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Kolkata, West Bengal, India</span>
+     </div>
+     <img class="who-gif" src="Developer.gif" alt="Developer at work" loading="lazy">
+   </section>
 
   <section class="what">
     <p class="bio">Fresh CSE grad who builds <strong>agentic AI systems</strong> that actually ship: multi-agent pipelines with LangGraph and Gemini, explainable ML for medical diagnostics, and full-stack apps in React/Next.js. Two hackathon wins, one GATE qualification, and a habit of automating whatever gets in the way.</p>
@@ -202,9 +215,9 @@ h2{font-family:"Syne",sans-serif;font-weight:700;font-size:13px;letter-spacing:.
     </div>
 
     <div class="ask">
-      <p>Ek chhoti si help chahiye 🙏 Agar aapki company mein <b>SDE, AI/ML, Agentic AI Engineer, Full-stack</b> ya intern role ke liye koi opening hai ya aane wali hai, toh please ek baar bata dena. Ek referral ya aapke HR ka contact bhi mere liye bahut bada support hoga.</p>
-      <p>Quickest way to reach me: <a href="https://wa.me/916297172118" target="_blank" rel="noopener">WhatsApp</a> or <a href="mailto:debashisalak@gmail.com">email</a>. Thank you for reading till here.</p>
-      <p class="sig">Debashis</p>
+      <p>A small request 🙏 If your company/team is hiring — or will be soon — for an <b>SDE, AI/ML, Agentic AI, or Full-stack</b> role (or an internship), I'd love to hear about it. A referral or an intro(Contact detailes) to your HR would mean a lot.</p>
+      <p>Quickest way to reach me: <a href="https://wa.me/916297172118" target="_blank" rel="noopener">WhatsApp</a> or <a href="mailto:debashisalak@gmail.com">email</a>. Thanks for reading till here.</p>
+      <p class="sig">- Debashis</p>
     </div>
   </section>
 </article>
